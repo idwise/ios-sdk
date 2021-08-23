@@ -1,0 +1,1 @@
+IDWise iOS Cocoapods spec repo
