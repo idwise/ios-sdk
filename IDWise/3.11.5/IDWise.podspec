@@ -19,7 +19,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '12.0'
   s.swift_version = '5.0'
  
-  s.xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' } 
   s.dependency 'GoogleMLKit/ObjectDetection', '~> 2.6.0'
   s.dependency 'GoogleMLKit/TextRecognition', '~> 2.6.0'
   s.dependency 'GoogleMLKit/ImageLabelingCustom', '~> 2.6.0'
