@@ -18,7 +18,6 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = 'IDWiseSDK.xcframework' # Your XCFramework
   s.ios.deployment_target = '12.0'
   s.swift_version = '5.0'
-  s.dependency 'FingerprintPro', '2.2.0'
 
  
 
