@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.0'
   s.swift_version = '5.0'
   s.dependency 'FingerprintPro', '2.7.0'
-  s.dependency 'Shield-Ptr', '1.5.50'
+  s.dependency 'Shield-Ptr', '1.5.52'
 
 
 
