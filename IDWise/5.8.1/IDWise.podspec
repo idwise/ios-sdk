@@ -21,12 +21,4 @@ Pod::Spec.new do |s|
   s.dependency 'FingerprintPro', '2.7.0'
   s.dependency 'Shield-Ptr', '1.5.52'
 
-
-
-  s.pod_target_xcconfig = {
-
-     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
-   }
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-
 end
