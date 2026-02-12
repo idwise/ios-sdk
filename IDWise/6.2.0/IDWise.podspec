@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://www.idwise.com/'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.author           = { 'IDWise LTD' => 'https://www.idwise.com/' }
-  s.source           = { :http => 'https://mobile-sdk.idwise.ai/ios/5.8.0/IDWiseSDK.xcframework.zip' }
+  s.source           = { :http => 'https://mobile-sdk.idwise.ai/ios/6.2.0/IDWiseSDK.xcframework.zip' }
   s.ios.vendored_frameworks = 'IDWiseSDK.xcframework' # Your XCFramework
   s.ios.deployment_target = '15.6'
   s.swift_version = '5.0'
